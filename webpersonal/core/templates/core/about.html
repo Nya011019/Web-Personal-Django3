@@ -1,0 +1,27 @@
+{% extends 'core/base.html' %}
+{% block title %} Acerca de{% endblock title %}
+
+{% block background %}
+{% load static %}
+{% static 'core/img/elque.jpg' %}"
+{% endblock %}
+
+{% block headers %} 
+    <h1>Acerca de</h1>
+    <span class="subheading">Biografía</span>
+{% endblock %}
+
+{% block content %}
+ <div class="container">
+      <div class="row">   
+        <div class="col-lg-3 col-md-4 offset-lg-1">
+          <img class="img-fluid avatar" src="{% static 'core/img/ss.jpg' %}" alt="">
+        </div>
+        <div class="col-lg-7 col-md-8">
+          <h2 class="section-heading">Ramón Zambrano</h2>   
+          <p>Nacido en la ciudad de Portoviejo, el día 1 de junio del 2002 a los 7 meses, Sus padres son: Ana Lucia Intriago Cedeño y Honecimo alciviades Zambrano Carreño. </p>
+          <p>Su novia se llama Nathaly juleidy Cedeño Acosta, nacida el 23 de agosto del 2002. Le gusta el anime y manga.</p>
+        </div>
+      </div>  
+    </div>
+{% endblock content %} 
